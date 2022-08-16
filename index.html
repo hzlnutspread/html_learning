@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- This is how you name the tab -->
+    <title>My First Webpage</title>
+
+    <!-- Metadata is data about data. Add metadata to head not body  -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Free my mans HTML bruhchamp">
+    <meta name="keywords" content="HTML, free, bruhchamp">
+    <meta name="author" content="SNIPER MONKEY">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3000">
+
+</head>
+
+<body style="background-color: blueviolet;">
+
+    <!-- the h1 tags are headers -->
+    <h1 style="color: blue;">This is my website!</h1>
+    <!-- This is how you add breaks -->
+    <hr>
+
+    <!-- This is how you add hyperlinks (text/buttons/images etc) -->
+    <a href="page2.html" target="_blank" title="This takes you to google">
+        Go to page2
+    </a>
+    <br>
+    <!-- This is how you add a hyperlink to send an email -->
+    <a href="mailto:fake123@gmail.com" target="_blank" title="This takes you to google">
+        Send email to me sheeesh
+    </a>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Shrek" target="_blank">
+        <!-- Create an image tag -->
+        <img src="./Images/Shrek.png" height="300" alt="This is thiccboi strek" title="Shrek is shrexy">
+    </a>
+    <br>
+    <!-- Add audio files and sheeet -->
+    <audio controls muted loop>
+        <source src="Demilitarized Zone (Sting) - Ethan Meixsell.mp3">
+        This browser doesnt like the song sadge
+    </audio>
+
+    <!-- Add video to website! MP4, WebM and Ogg -->
+
+    <!-- These change the style of your text -->
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <big>big</big> text</p>
+    <p>This is <small>small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <ins>inserted</ins> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <mark>marked/highlighted</mark> text</p>
+
+    <!-- These are for creating lists -->
+    <h4>Unordered List</h4>
+    <ul>
+        <li>Pizza dough</li>
+        <li>tomatoes</li>
+        <li>celery</li>
+        <li>sauce</li>
+        <li>Cheese</li>
+        <li>Toppings
+            <ul>
+                <li>pepperoni</li>
+                <li>mushrooms</li>
+                <li>peppers</li>
+            </ul>
+        </li>
+
+    </ul>
+
+    <h4>Ordered List</h4>
+    <ol type="I">
+        <li>eat breakfast</li>
+        <li>brush teeth</li>
+        <li>Shower</li>
+        <li>Go to work</li>
+    </ol>
+
+    <h4>Ordered List</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>This adds structure to a Webpage</dd>
+
+        <dt>CSS</dt>
+        <dd>This adds style to a Webpage</dd>
+
+        <dt>JavaScript</dt>
+        <dd>This adds functionality to a Webpage</dd>
+    </dl>
+
+    <!-- Creating a table -->
+    <h3>Store hours</h3>
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>Closed</td>
+            <td>9-5pm</td>
+            <td>9-5pm</td>
+            <td>9-5pm</td>
+            <td>9-5pm</td>
+            <td>9-5pm</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+
+    <!-- Adding colour to a webpage -->
+    <h1 style="color: red">Hello!</h1>
+    <h1 style="color: rgb(5,240,232)">Hello!</h1>
+    <h1 style="color: #28f005">Hello!</h1>
+
+    <p style="background-color: #222222; color: #28f005">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+        accusantium, unde voluptates magni perspiciatis magnam
+        cupiditate! Quidem deleniti aliquam accusamus officiis eum dolorem atque unde fugit. Dolorem quasi voluptates
+        ex.
+    </p>
+
+    <!-- span = adds markup to text or portion of a document -->
+    <!-- div = defines a division of a document -->
+
+    <h1>HELLO! SPANS AND DIVS</h1>
+    <div style="background-color: #444444">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero dignissimos vitae, perspiciatis culpa
+            dicta
+            ducimus ut magnam consequuntur, quos laboriosam iste ex sit fuga tempore, repellendus explicabo. Facere,
+            fugit?
+        </p>
+
+        <p>
+            <span style="color:aqua">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Sequi libero
+            dignissimos vitae, perspiciatis culpa dicta
+            ducimus ut magnam consequuntur, quos laboriosam iste ex sit fuga tempore, repellendus explicabo. Facere,
+            fugit?
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero dignissimos vitae, perspiciatis culpa
+            dicta
+            ducimus ut magnam consequuntur, quos laboriosam iste ex sit fuga tempore, repellendus explicabo. Facere,
+            fugit?
+        </p>
+    </div>
+
+
+    <!-- create a button in HTML -->
+    <button onclick="doSomething()" style="background-color: yellow; color: #28f005; border-radius: 5px;">Hello
+        :3</button>
+
+    <p id="test">Hello!</p>
+
+    <script>
+        function doSomething() {
+            document.getElementById("test").innerHTML = "Goodbye!";
+        }
+    </script>
+
+    <p></p>
+
+
+
+    <p>Hello gais</p>
+
+    <form action="action_page.php" method="POST">
+
+        <div>
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" name="pass" placeholder="password..." required maxlength="12">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">Phone #: </label>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bday">Birthday!: </label>
+            <input type="date" id="bday" name="bday" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity">Birthday!: </label>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" value="1" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title">Title:</label>
+
+            <label for="Mr">Mr</label>
+            <input type="radio" id="Mr" name="title" value="Mr">
+
+            <label for="Mrs">Mrs</label>
+            <input type="radio" id="Mrs" name="title" value="Mrs">
+
+            <label for="PhD">PhD</label>
+            <input type="radio" id="PhD" name="title" value="PhD">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="payment">payment!: </label>
+            <select id="payment" name="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe">subscribe: </label>
+            <input type="checkbox" id="subscribe" name="subscribe" required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+    <br>
+
+
+    <!-- iframes = embed content from another source into an html document-->
+    <!-- used for ads and used inmany hacking technqiues -->
+    <iframe style=border:0 src="ad.html" width="750" height="200">
+
+
+</body>
+
+</html>
